@@ -4,7 +4,7 @@ import (
 	"math"
 	"testing"
 
-	"gitlab.com/enda-mullally/codechallenge/models"
+	"github.com/enda-mullally/codechallenge/models"
 )
 
 func Test_ParseNumberOfDays_1Day_Works(t *testing.T) {

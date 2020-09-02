@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"strings"
 
-	console "gitlab.com/enda-mullally/codechallenge/console"
-	consts "gitlab.com/enda-mullally/codechallenge/consts"
-	logic "gitlab.com/enda-mullally/codechallenge/logic"
-	models "gitlab.com/enda-mullally/codechallenge/models"
+	console "github.com/enda-mullally/codechallenge/console"
+	consts "github.com/enda-mullally/codechallenge/consts"
+	logic "github.com/enda-mullally/codechallenge/logic"
+	models "github.com/enda-mullally/codechallenge/models"
 )
 
 func main() {

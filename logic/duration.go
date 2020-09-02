@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"strings"
 
+	models "github.com/enda-mullally/codechallenge/models"
 	"github.com/leejarvis/swapi"
-	models "gitlab.com/enda-mullally/codechallenge/models"
 )
 
 // ParseNumberOfDays - Given a string like "2 months" return 60 (days)

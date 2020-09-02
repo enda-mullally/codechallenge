@@ -7,7 +7,7 @@ import (
 	"os"
 	"strconv"
 
-	consts "gitlab.com/enda-mullally/codechallenge/consts"
+	consts "github.com/enda-mullally/codechallenge/consts"
 )
 
 // PrintBanner - Prints the application banner - ascii text from: http://www.patorjk.com/software/taag/#p=display&h=1&f=Graffiti&t=StarWars

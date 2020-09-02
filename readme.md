@@ -30,7 +30,7 @@ The calculations in the code version is in: [duration.go](/logic/duration.go)
 
 ## Running The Tests  ##
 
-    go test -v gitlab.com/enda-mullally/codechallenge/logic gitlab.com/enda-mullally/codechallenge/models 
+    go test -v github.com/enda-mullally/codechallenge/logic github.com/enda-mullally/codechallenge/models 
 
 **Tests Results**
 
@@ -40,7 +40,7 @@ The calculations in the code version is in: [duration.go](/logic/duration.go)
 
 Running the test coverage report
 
-    go test -timeout 30s -coverprofile=test_coverage.txt gitlab.com/enda-mullally/codechallenge/logic gitlab.com/enda-mullally/codechallenge/models
+    go test -timeout 30s -coverprofile=test_coverage.txt github.com/enda-mullally/codechallenge/logic github.com/enda-mullally/codechallenge/models
     go tool cover -html=test_coverage.txt -o test_coverage.html
     
 **Coverage Results**
@@ -53,23 +53,19 @@ Coverage report: [test_coverage.html](/test_coverage.html)
 
 ## Compiling and running the code ##
 
-    go get https://gitlab.com/enda-mullally/codechallenge
+    go get https://github.com/enda-mullally/codechallenge
     go get https://github.com/leejarvis/swapi
     
-    cd %GOPATH%\src\gitlab.com\enda-mullally\codechallenge
+    cd %GOPATH%\src\github.com\enda-mullally\codechallenge
     
 	go build starwars.go
 
     go run starwars.go
 
-If you cannot run above, you will find a pre-compiled **starwars.exe** in the repo.
-
 ## Installer  ##
 
-If you just want to run the app, I've included a small Installer here:
-[setup.exe](/installer/setup.exe)
-
-*Note: This installer is not digitally signed so your virus scanner will most likely complain! If you don't trust the installer, follow the instructions above to run via the go tools.*
+I've included a small InnoSetup installer here:
+[codechallenge.iss](/installer/codechallenge.iss)
 
 ![Screenshot](/screenshots/Setup_01.png)
 
